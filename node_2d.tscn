@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c1ssjq1j2qr6x"]
+
+[ext_resource type="Script" uid="uid://bvvsnawg5lf7k" path="res://sprite_2d.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1464082291]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=971502338]
+scale = Vector2(0.1678271, -5.7545596e-05)
+
+[node name="Node" type="Node" parent="CharacterBody2D" unique_id=2134789804]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=68440836]
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D" unique_id=1853736352]
+script = ExtResource("1_wtcfe")
